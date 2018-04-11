@@ -4,7 +4,11 @@ import java.io.*;
 import java.net.*;
 import java.util.logging.*;
 
-
+/**
+ * Обработчик клиентских запросов на соединений
+ * @author Антон Литвиненко
+ * @version 0.1
+ */
 class ConnectionHandler extends Thread{
     private static final Logger LOGGER = Logger.getLogger( ConnectionHandler.class.getName() );
 

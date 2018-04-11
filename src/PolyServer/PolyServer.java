@@ -3,6 +3,11 @@ package PolyServer;
 import java.net.*;
 import java.util.logging.*;
 
+/**
+ * Основной класс сервера
+ * @author Антон Литвиненко
+ * @version 0.1
+ */
 public class PolyServer extends Thread{
     private static final Logger LOGGER = Logger.getLogger( PolyServer.class.getName() );
 
