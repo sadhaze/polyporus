@@ -1,5 +1,6 @@
 package PolyClient;
 
+import PolyClient.PObject.*;
 import javafx.scene.Group;
 import java.util.ArrayList;
 import java.util.List;

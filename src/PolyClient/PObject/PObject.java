@@ -1,5 +1,6 @@
-package PolyClient;
+package PolyClient.PObject;
 
+import PolyClient.PolyClient.*;
 import javafx.scene.Node;
 
 /**
@@ -8,22 +9,22 @@ import javafx.scene.Node;
  * @version 0.1
  */
 public class PObject {
-    private PPoint position;
+    private PolyClient.PPoint position;
     private Node node;
 
     public PObject() {
-        this.position = new PPoint();
+        this.position = new PolyClient.PPoint();
     }
 
-    public PObject(PPoint p) {
+    public PObject(PolyClient.PPoint p) {
         this.position = p;
     }
 
-    public PPoint getPosition() {
+    public PolyClient.PPoint getPosition() {
         return this.position;
     }
 
-    public void setPosition(PPoint p) {
+    public void setPosition(PolyClient.PPoint p) {
         this.position = p;
     }
 

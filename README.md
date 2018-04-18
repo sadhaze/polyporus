@@ -1,3 +1,3 @@
-1) Initialize new project
-2) Create client and server v.0.0.001
-3) 
+1) Create object class
+2) Create MouseHandler
+3) Create Floor, Cursor, Player
