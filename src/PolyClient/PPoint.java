@@ -19,12 +19,12 @@ public class PPoint {
         this.y = y;
     }
 
-    public static int convertToPX(double x) {
-        return (int)(x - x%VisualFeaturs.pobjectsize)/VisualFeaturs.pobjectsize;
+    public static int convertToPX(int x) {
+        return (x - x%VisualFeaturs.pobjectsize)/VisualFeaturs.pobjectsize;
     }
 
-    public static int convertToPY(double y) {
-        return (int)(y - y%VisualFeaturs.pobjectsize)/VisualFeaturs.pobjectsize;
+    public static int convertToPY(int y) {
+        return (y - y%VisualFeaturs.pobjectsize)/VisualFeaturs.pobjectsize;
     }
 
     public int getPX() {

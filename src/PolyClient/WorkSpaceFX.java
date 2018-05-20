@@ -8,13 +8,12 @@ import java.util.List;
 /**
  * Класс содержащий фнформацию об объектах размещенных на локации
  * @author Антон Литвиненко
- * @version 0.1
+ * @version 0.3
  */
 public class WorkSpaceFX {
     private List<List<List<PObject>>> workSpaceX;
     private List<List<PObject>> workSpaceY;
     private List<PObject> pObjects;
-    private MouseHandler mouseHandler;
 
     public WorkSpaceFX() {
         workSpaceX = new ArrayList<>();
@@ -36,10 +35,6 @@ public class WorkSpaceFX {
         workSpaceX.get(x).get(y).remove(index);
     }
 
-    public void setMouseHandler(Group root) {
-        this.mouseHandler = new MouseHandler(this, root);
-    }
-
     public PObject getPObject(int xposition, int yposition, int index){
         return workSpaceX.get(xposition).get(yposition).get(index);
     }
@@ -47,16 +42,10 @@ public class WorkSpaceFX {
     public int getPOWidth(){
         return workSpaceX.size();
     }
-
     public int getPOHeight(){
         return workSpaceY.size();
     }
-
     public int getPobCount(int xposition, int yposition){
         return workSpaceX.get(xposition).get(yposition).size();
-    }
-
-    public void setCursor(ObjCursor cursor){
-        mouseHandler.setCursor(cursor);
     }
 }

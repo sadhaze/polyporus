@@ -8,10 +8,10 @@ package PolyClient;
 public class VisualFeaturs {
     public static String gamename = "Polyporus";
     public static int gridsize = 40;
-    public static int panelwidth = 800;
+    public static int panelwidth = 600;
     public static int panelheight = 600;
     public static int unitsize = gridsize;
     public static int pobjectsize = gridsize;
-    public static int wsheight = 5;
-    public static int wswidth = 5;
+    public static int wsheight = 15;
+    public static int wswidth = 15;
 }

@@ -1,6 +1,5 @@
 package PolyClient.PObject;
 
-import PolyClient.PolyClient.*;
 import javafx.scene.Node;
 
 /**

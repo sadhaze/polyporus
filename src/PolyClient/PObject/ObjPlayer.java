@@ -25,7 +25,7 @@ public class ObjPlayer extends PObject {
 
     public void setPosition(int x, int y) {
         super.setPosition(x, y);
-        player.setCenterX(x * PolyClient.VisualFeaturs.pobjectsize);
-        player.setCenterY(y * PolyClient.VisualFeaturs.pobjectsize);
+        player.setCenterX(x * PolyClient.VisualFeaturs.pobjectsize + PolyClient.VisualFeaturs.pobjectsize/2);
+        player.setCenterY(y * PolyClient.VisualFeaturs.pobjectsize + PolyClient.VisualFeaturs.pobjectsize/2);
     }
 }
